@@ -2,7 +2,7 @@ public class Ch4Ex6 {
 public final static double ratio = (1+Math.sqrt(5))/2;	
 	public static void main(String[] args){
 		/**
-		 *   The numerator of the next term is the sum of num and denom of the first 
+		 *   The numerator of the next term is the sum of num and denom of the previous 
 		 *   the denom of the next term is the num of the previous
 		 */
 		int x = 9;
