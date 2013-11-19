@@ -3,6 +3,7 @@
  * Chapter 4 Exercise 5
  * Block 3B
  */
+package Chapter4;
 public class Ch4Ex5
 {
 
