@@ -5,7 +5,7 @@ public static int  j = 0;
 	public static void main(String[] args) {
 		//itPrintTri(5);
 		//recPrintTri(5);
-		partCRecPrintTri(5);
+		//partCRecPrintTri(5);
 	}
 	public static void itPrintTri(int n){
 		for (int j = 1; j <= n;j++){
