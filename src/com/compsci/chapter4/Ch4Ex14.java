@@ -1,4 +1,11 @@
-package chapter4;
+/**
+ * CJ Zeiger
+ * December 12th, 2013
+ * Chapter 4 Exercise 14
+ * Block 3B
+ */
+
+package com.compsci.chapter4;
 
 public class Ch4Ex14 {
 	public static int count = 0;
@@ -18,11 +25,4 @@ public class Ch4Ex14 {
 	}
 
 }
-//called twice
-
-
-/**
- * if someFun(4) is called:
- * 
- *  part b is Answer: E
- */
+//Part B is answer E

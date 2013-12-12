@@ -1,4 +1,4 @@
-package chapter4;
+package com.compsci.chapter4;
 public class Ch4Ex6 {
 public final static double ratio = (1+Math.sqrt(5))/2;	
 	public static void main(String[] args){

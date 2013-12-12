@@ -1,4 +1,10 @@
-package chapter4;
+/**
+ * CJ Zeiger
+ * December 12th, 2013
+ * Chapter 4 Exercise 11
+ * Block 3B
+ */
+package com.compsci.chapter4;
 
 public class Ch4Ex11 {
 	public static int count = 0;

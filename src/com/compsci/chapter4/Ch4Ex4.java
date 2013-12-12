@@ -1,4 +1,4 @@
-package chapter4;
+package com.compsci.chapter4;
 
 public class Ch4Ex4
 {
