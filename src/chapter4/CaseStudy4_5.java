@@ -1,11 +1,16 @@
+/**
+ * CJ Zeiger
+ * Euclid GCF program
+ * Block 3B
+ */
 package chapter4;
 import java.util.Scanner;
 public class CaseStudy4_5 {
 
 	public static void main(String[] args) {
 		Scanner in = new Scanner(System.in);
-		int a = in.nextInt();
-		int b = in.nextInt();
+		int a = 15;
+		int b = 80;
 		System.out.println(iterative(a,b));
 		System.out.println(recursive(a,b));
 	}
