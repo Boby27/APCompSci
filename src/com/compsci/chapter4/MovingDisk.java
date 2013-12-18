@@ -37,10 +37,11 @@ public class MovingDisk extends JPanel
 
   public void actionPerformed(ActionEvent e)
   {
+    
     time++;
     repaint();
   }
-
+   
   public static void main(String[] args)
   {
     JFrame w = new JFrame("Moving Disk");
