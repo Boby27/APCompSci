@@ -3,7 +3,7 @@ package com.compsci.chapter4;
 public class Ch4Ex15 {
 
 	public static void main(String[] args) {
-		System.out.println(biCo(2,5));
+		System.out.println(biCo(28,15));
 	}
 	public static int biCo(int n, int k){
 		if (n == k ||k == 0){
