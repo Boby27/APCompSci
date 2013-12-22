@@ -1,4 +1,4 @@
-package com.compsci.chapter4;
+package com.compsci.chapter5;
 
 import java.awt.*;
 import java.awt.event.*;
