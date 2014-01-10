@@ -1,4 +1,4 @@
-package com.compsci.chapter5;
+package com.compsci.chapter6;
 /**
  * A PollDisplayPanel holds the vote counts and
  * displays the numbers and the pie chart for

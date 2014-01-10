@@ -1,4 +1,4 @@
-package com.compsci.chapter5;
+package com.compsci.chapter6;
 /*
  * Implements the control panel for the Poll program
  */

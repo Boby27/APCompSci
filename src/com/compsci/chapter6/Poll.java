@@ -1,4 +1,4 @@
-package com.compsci.chapter5;
+package com.compsci.chapter6;
 /**
  * Implements a program with a pie chart
  * that shows interactive polling results for three candidates

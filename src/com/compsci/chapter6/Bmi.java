@@ -1,4 +1,4 @@
-package com.compsci.chapter5;
+package com.compsci.chapter6;
 
 // Chapter 6 Question 16
 
