@@ -1,6 +1,11 @@
 package com.compsci.chapter6;
 
-// Chapter 6 Question 16
+/**
+ * CJ Zeiger
+ * January 10th, 2014
+ * Chapter 6 Exercise 16 - BMI program
+ * Block 3B
+ */
 
 import java.awt.*;
 import java.awt.event.*;
@@ -13,7 +18,6 @@ public class Bmi extends JFrame
   JTextField inputLbs, inputInches, displayBmi;
   final private double INCH_TO_METER = 0.0254;
   final private double POUND_TO_KILOGRAM = 0.454;
-
   public Bmi()
   {
     super("BMI Calculator");
@@ -40,7 +44,6 @@ public class Bmi extends JFrame
     c.add(p, BorderLayout.CENTER);
     c.add(go, BorderLayout.SOUTH);
   }
-
   public void actionPerformed(ActionEvent e)
   {
     int lbs = Integer.parseInt(inputLbs.getText());
@@ -49,17 +52,12 @@ public class Bmi extends JFrame
     DecimalFormat df = new DecimalFormat("00.0");
     displayBmi.setText(df.format(bmi));
   }
-
-  // Returns BMI equal to weight in kilograms divided
-  // over squared height in meters.
   private double calculateBmi(int lbs, int inches)
   {
     double kilos = (double) lbs*POUND_TO_KILOGRAM;
     double meteres = (double) inches*INCH_TO_METER;
     return kilos/(meteres*meteres);
-    
   }
-
   public static void main(String[] args)
   {
     Bmi w = new Bmi();

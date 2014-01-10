@@ -1,9 +1,10 @@
 package com.compsci.chapter6;
-
-// Chapter 6 Question 19
-
-// CJ Zeiger
-
+/**
+ * CJ Zeiger
+ * January 10th, 2014
+ * Chapter 6 Exercise 19 - Rainbow
+ * Block 3B
+ */
 import java.awt.Color;
 import java.awt.Graphics;
 import java.awt.Container;
@@ -12,7 +13,6 @@ import javax.swing.JPanel;
 
 public class Rainbow extends JPanel
 {
-  // Declare skyColor:
   private Color skyColor = Color.CYAN;
 
   public Rainbow()
@@ -20,7 +20,6 @@ public class Rainbow extends JPanel
     setBackground(skyColor);
   }
 
-  // Draws the rainbow.
   public void paintComponent(Graphics g)
   {
     super.paintComponent(g);
@@ -39,7 +38,6 @@ public class Rainbow extends JPanel
     g.fillArc(xCenter-magRadius, yCenter-magRadius, 2*magRadius, 2*magRadius, 0,180);
     g.setColor(Color.GREEN);
     g.fillArc(xCenter-greenRadius, yCenter-greenRadius, 2*greenRadius, 2*greenRadius, 0,180);
-    
     g.setColor(skyColor);
     g.fillArc(xCenter-innerRadius, yCenter-innerRadius, 2*innerRadius, 2*innerRadius, 0,180);
   }
