@@ -28,6 +28,6 @@ public class WarmWeather{
             warm = false;
           }
       }
-    boolean test = 
+    warm = (location.isTropics()) || (!location.isNorthPole() && !location.isSouthPole()) || ((time.getMonth() == 4 || time.getMonth() == 10) && weather.isSunny()) || (location.isNorthernHemishpere() && time.getMonth() >=5 && time.getMonth() <= 9) || (location.isSothernHemisphere() && (time.getMonth() >= 11 || time.getMonth() <= 3));
   }
 }
