@@ -1,4 +1,7 @@
+
+
 // Chapter 7 Question 15
+/**
 public class WarmWeather{
   
   public static void main(String[] args){
@@ -28,6 +31,7 @@ public class WarmWeather{
             warm = false;
           }
       }
-    warm = (location.isTropics()) || (!location.isNorthPole() && !location.isSouthPole()) || ((time.getMonth() == 4 || time.getMonth() == 10) && weather.isSunny()) || (location.isNorthernHemishpere() && time.getMonth() >=5 && time.getMonth() <= 9) || (location.isSothernHemisphere() && (time.getMonth() >= 11 || time.getMonth() <= 3));
+    boolean warm = (location.isTropics()) || (!location.isNorthPole() && !location.isSouthPole()) || ((time.getMonth() == 4 || time.getMonth() == 10) && weather.isSunny()) || (location.isNorthernHemishpere() && time.getMonth() >=5 && time.getMonth() <= 9) || (location.isSothernHemisphere() && (time.getMonth() >= 11 || time.getMonth() <= 3));
   }
 }
+**/

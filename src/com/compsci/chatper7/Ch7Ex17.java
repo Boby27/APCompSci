@@ -1,3 +1,10 @@
+/**
+ * CJ Zeiger
+ * Feb 4th, 2014
+ * Chapter 7 Exercise 17
+ * Block 3B
+ */
+
 package com.compsci.chatper7;
 
 import java.awt.Color;

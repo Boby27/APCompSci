@@ -1,3 +1,11 @@
+/**
+ * CJ Zeiger
+ * Feb 4th, 2014
+ * Chapter 7 Exercise 18
+ * Block 3B
+ */
+
+
 package com.compsci.chatper7;
 
 public class Ch7Ex18 {
