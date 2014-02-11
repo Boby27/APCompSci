@@ -57,8 +57,7 @@ public class CrapsStats extends JFrame
   public static void main(String args[])
   {
     CrapsStats window = new CrapsStats();
-    window.setBounds(100, 100, 3
-        00, 100);
+    window.setBounds(100, 100, 300, 100);
     window.setDefaultCloseOperation(EXIT_ON_CLOSE);
     window.setResizable(false);
     window.setVisible(true);

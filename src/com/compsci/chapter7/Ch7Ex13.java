@@ -1,4 +1,4 @@
-package com.compsci.chatper7;
+package com.compsci.chapter7;
 
 public class Ch7Ex13{
 

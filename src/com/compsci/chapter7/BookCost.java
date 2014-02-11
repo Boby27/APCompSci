@@ -4,7 +4,7 @@
  * Chapter 7 Exercise 16 - BookCost
  * Block 3B
  */
-package com.compsci.chatper7;
+package com.compsci.chapter7;
 
 import java.util.Scanner;
 
