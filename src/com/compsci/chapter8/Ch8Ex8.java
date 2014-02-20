@@ -5,7 +5,7 @@ public class Ch8Ex8
 
   public static void main(String[] args)
   {
-    System.out.println(div3(9));
+    System.out.println(div3(14348907));
   }
   private static int sumDigits(int number){
     int sum =0;
@@ -20,14 +20,16 @@ public class Ch8Ex8
     return sum;
   }
   private static boolean div3(int number){
-      if (number/3 == 1){
+      if (number == 9 || number == 6|| number==3){
         return true;
       }
+      else if (number < 10)
+        return false;
       else if (div3(sumDigits(number))){
         return true;
       }
-      else
-    return false;
+      
+      return false;
   }
 
 }
