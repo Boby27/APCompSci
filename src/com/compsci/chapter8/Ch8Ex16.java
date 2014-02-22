@@ -1,27 +1,33 @@
 package com.compsci.chapter8;
 
 public class Ch8Ex16 {
+	private static int p;
+	private static int n;
+	private static int d;
+	private static int q;
 	private static int count;
-	private static int cents = 30;
-	private static int mp;
-	private static int mn;
-	private static int md;
-	private static int mq;
+	
 	
 	public static void main (String[] args){
-		mp = cents;
-		mn = cents/5;
-		md = cents /10;
-		mq = cents/25;
-		allCombinations(mp,mn,md,mq);
+		int cents = 100;
+		p = cents;
+		n = cents/5;
+		d = cents /10;
+		q = cents/25;
+		allCombinations(p,n,d,q,cents);
 		System.out.println(""+count);
 	}
-	private static void allCombinations(int p, int n, int d, int q){
-		if (p+(n*5)+(d*10)+(q*25)==cents){
-			printCoins(p,n,d,q,cents);
-		}
-		for (int ip = p; ip>=0; ip--){
-			
+	private static void allCombinations(int p, int n, int d, int q,int cents){
+		for (int i = 0;i<=p;i++){
+			for (int j = 0;j<=n;j++){
+				for (int k = 0;k<=d;k++){
+					for (int l = 0;l<=q;l++){
+						if(i+(j*5)+(k*10)+(l*25)==cents){
+							printCoins(i,j,k,l,cents);
+						}
+					}
+				}
+			}
 		}
 	}
 	private static void printCoins(int pen, int nic, int dime, int qut, int cent){
