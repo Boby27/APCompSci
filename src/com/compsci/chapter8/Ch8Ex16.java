@@ -9,7 +9,7 @@ public class Ch8Ex16 {
 	
 	
 	public static void main (String[] args){
-		int cents = 100;
+		int cents = 200;
 		p = cents;
 		n = cents/5;
 		d = cents /10;
