@@ -1,4 +1,10 @@
 package com.compsci.chapter8;
+/**
+ * CJ Zeiger
+ * Feb 24th, 2014
+ * Chapter 8 Exercise 8
+ * Block 3B
+ */
 
 public class Ch8Ex8
 {

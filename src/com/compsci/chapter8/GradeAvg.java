@@ -1,6 +1,12 @@
 package com.compsci.chapter8;
 
 // Chapter 8 Question 9
+/**
+ * CJ Zeiger
+ * Feb 24th, 2014
+ * Chapter 8 Exercise 9
+ * Block 3B
+ */
 
 import java.io.*;
 import java.util.Scanner;
