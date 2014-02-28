@@ -8,11 +8,12 @@ public class FCConverter
   public void setFahrenheit(double degrees)
   {
     mFahrenheit = degrees;
+    m
   }
 
   public double getCelsius()
   {
-    return 0;
+    return mCelsius;
   }
 
   public void setCelsius(double degrees)
@@ -22,7 +23,7 @@ public class FCConverter
 
   public double getFahrenheit()
   {
-    return 0;
+    return mFahrenheit;
   }
 
 }
