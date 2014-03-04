@@ -32,15 +32,15 @@ public class Time
   }
   public int elapsedSince(Time previousTime){
     int thisMins = toMins();
-    int otherMins = previousTime.toMins();
+    int prevMins = previousTime.toMins();
     if (lessThan(previousTime)){
-      return thisMins + (24*60) - otherMins;
+      return thisMins + (24*60) - prevMins;
     } else {
-      return thisMins - otherMins;
+      return thisMins - prevMins;
     }
   }
   public String toString(){
-    return "" + hours + "h and " + minutes + "m";
+    return "" + hours + "h : " + minutes + "m";
   }
 
 }

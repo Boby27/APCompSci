@@ -8,7 +8,6 @@ public class FCConverter
   public void setFahrenheit(double degrees)
   {
     mFahrenheit = degrees;
-    m
   }
 
   public double getCelsius()
