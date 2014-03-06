@@ -9,7 +9,7 @@ public class Ch8Ex16 {
 	
 	
 	public static void main (String[] args){
-		int cents = 200;
+		int cents = 100000;
 		p = cents;
 		n = cents/5;
 		d = cents /10;
@@ -31,7 +31,7 @@ public class Ch8Ex16 {
 		}
 	}
 	private static void printCoins(int pen, int nic, int dime, int qut, int cent){
-		System.out.println(""+cent+" = " + qut + " quarters + " + dime + " dimes + " + nic + " nickels + " + pen + " pennies");
+		//System.out.println(""+cent+" = " + qut + " quarters + " + dime + " dimes + " + nic + " nickels + " + pen + " pennies");
 		count++;
 	}
 }
