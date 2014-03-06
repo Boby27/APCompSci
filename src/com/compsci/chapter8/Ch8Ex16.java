@@ -1,23 +1,31 @@
 package com.compsci.chapter8;
-
+/**
+ * CJ Zeiger
+ * Feb 24th, 2014
+ * Chapter 8 Exercise 16
+ * Block 3B
+ */
 public class Ch8Ex16 {
-	private static int p;
-	private static int n;
-	private static int d;
-	private static int q;
-	private static int count;
+	private int p;
+	private int n;
+	private int d;
+	private int q;
+	private int count;
 	
 	
 	public static void main (String[] args){
-		int cents = 100000;
-		p = cents;
-		n = cents/5;
-		d = cents /10;
-		q = cents/25;
-		allCombinations(p,n,d,q,cents);
-		System.out.println(""+count);
+		Ch8Ex16 run = new Ch8Ex16();
 	}
-	private static void allCombinations(int p, int n, int d, int q,int cents){
+	Ch8Ex16(){
+	  int cents = 30;
+    p = cents;
+    n = cents/5;
+    d = cents /10;
+    q = cents/25;
+    allCombinations(p,n,d,q,cents);
+    System.out.println(""+count);
+	}
+	private void allCombinations(int p, int n, int d, int q,int cents){
 		for (int i = 0;i<=p;i++){
 			for (int j = 0;j<=n;j++){
 				for (int k = 0;k<=d;k++){
@@ -30,8 +38,9 @@ public class Ch8Ex16 {
 			}
 		}
 	}
-	private static void printCoins(int pen, int nic, int dime, int qut, int cent){
-		//System.out.println(""+cent+" = " + qut + " quarters + " + dime + " dimes + " + nic + " nickels + " + pen + " pennies");
+
+	private void printCoins(int pen, int nic, int dime, int qut, int cent){
+		System.out.println(""+cent+" = " + qut + " quarters + " + dime + " dimes + " + nic + " nickels + " + pen + " pennies");
 		count++;
 	}
 }

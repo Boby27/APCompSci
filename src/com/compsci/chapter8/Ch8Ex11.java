@@ -1,7 +1,13 @@
 package com.compsci.chapter8;
 
-public class Ch8Ex11 {
+/**
+ * CJ Zeiger
+ * Feb 24th, 2014
+ * Chapter 8 Exercise 11
+ * Block 3B
+ */
 
+public class Ch8Ex11 {
 	public static void main(String[] args) {
 		printStarTriangle(8);
 	}
