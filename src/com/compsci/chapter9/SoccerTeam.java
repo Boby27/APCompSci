@@ -1,3 +1,9 @@
+/**
+ * CJ Zeiger
+ * SoccerTeam
+ * Block 3B
+ * March 11th, 2014
+ */
 package com.compsci.chapter9;
 
 public class SoccerTeam
@@ -9,6 +15,8 @@ public class SoccerTeam
   private static int _goals;
   public void played(SoccerTeam other, int myScore, int otherScore){
     _games++;
+    _goals += myScore;
+    _goals += otherScore;
     if (myScore > otherScore) {
       _wins++;
       other._loses++;
@@ -33,5 +41,9 @@ public class SoccerTeam
   }
   public static int getGoals(){
     return _goals;
+  }
+  public static void startTournament(){
+    _games = 0;
+    _goals = 0;
   }
 }
