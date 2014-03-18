@@ -23,10 +23,16 @@ public class Hangman
     boolean match = false;
     letter = letter.toLowerCase();
     for (int n = 0;n<secret.length();n++){
-      if(secret.charAt(n) == letter.charAt(0)){
-        replace(n,letter);
-        match = true;
-      }
+    	System.out.printf("Charecter: %s N value: %s \n", letter, ""+n);
+    	if(secret.charAt(n) == letter.charAt(0)){
+	    	if(display.charAt(n) == letter.charAt(0)){
+	    		System.out.println("You've already guess that letter");
+	    		match = true;
+	    		break;
+	    	}
+    		replace(n,letter);
+	        match = true;
+    	}
     }
     if (match == false){
       numLeft--;
