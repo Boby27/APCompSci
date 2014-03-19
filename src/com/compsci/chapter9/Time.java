@@ -1,3 +1,8 @@
+/** CJ Zeiger
+ * Block 3 Day B
+ * March 19th, 2014
+ * Time class and test time output
+ */
 package com.compsci.chapter9;
 
 public class Time
